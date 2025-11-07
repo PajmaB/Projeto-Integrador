@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crie sua Conta</title>
+  <link rel="icon" href="img/Robot-solo.png">
+  <link rel="stylesheet" href="css/styleA.css"/>
+</head>
+<body>
+  <div class="container">
+    <form class="form" id="registerForm">
+      <div class="form-header">
+        <span class="icon"></span>
+        <h2>👤 Crie sua Conta</h2>
+      </div>
+
+      <label for="nome">Nome Completo (Ou o nome da sua empresa)</label>
+      <input type="text" id="nome" placeholder="Seu nome completo" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="seu@email.com" required />
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" placeholder="Crie uma senha forte" required />
+
+      <label for="tipo">Tipo de Conta</label>
+      <select id="tipo">
+        <option value="candidato">Candidato - Buscando oportunidades</option>
+        <option value="empresa">Empresa - Oferecendo vagas</option>
+      </select>
+
+      <button class="btn1" type="submit">Cadastrar</button>
+
+      <p class="footer-text">
+        Já tem uma conta?
+        <a href="indexLogin.html" class="link">Faça login aqui</a>
+      </p>
+    </form>
+  </div>
+
+  <script src="scriptRegistro.js"></script>
+</body>
+</html>
