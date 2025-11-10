@@ -78,6 +78,7 @@ select:focus {
   cursor: pointer;
   font-weight: 600;
   transition: all 0.2s;
+  align-items: center;
 }
 
 .btn1 {
